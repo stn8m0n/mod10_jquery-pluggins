@@ -8,11 +8,17 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="slick/slick.min.js"></script>
 </head>
 <body>
     <header>
         <div class="container">
             <h1>Ebac Motors</h1>
+            <div class="menu-sandwish">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
         </div>
             <nav>
                 <div class="container">
@@ -34,6 +40,19 @@
                 </div>
             </nav>
     </header>
-    
+    <div id="carousel-img">
+        <img src="imagens-icones/images/slide1.png" alt="">
+        <img src="imagens-icones/images/slide2.png" alt="">
+        <img src="imagens-icones/images/slide3.png" alt="">
+    </div>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('#carousel-img').slick({
+                autoplay: true,
+            });
+        })
+    </script>
 </body>
 </html>
