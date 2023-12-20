@@ -10,6 +10,10 @@
     margin: 0 auto;
 }
 
+html {
+    overflow-x: hidden; /*todo conteudo que ultrapassar a tela*/
+}
+
 header {
     background-color: #192a56;
     padding-top: 18px;
@@ -27,6 +31,7 @@ header > .container {
 nav {
 background-color: #575fcf;
 padding: 16px 0;
+display: nome;
 }
 
 nav li {
@@ -45,6 +50,7 @@ nav li a {
 .menu-sandwish{
     width: 32px;
     padding-top: 16px;
+    cursor: pointer;
 }
 
 .menu-sandwish span {
