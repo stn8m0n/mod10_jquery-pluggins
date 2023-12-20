@@ -60,3 +60,7 @@ nav li a {
     display: block;
     margin-bottom: 4px;
 }
+
+.conteiner-flex {
+    display: flex;
+}
