@@ -1,4 +1,4 @@
-/*
+
 *{
     margin: 0;
     padding: 0;
@@ -12,7 +12,7 @@
 }
 
 html {
-    overflow-x: hidden; /* todo conteudo que ultrapassar a tela
+    overflow-x: hidden; /* todo conteudo que ultrapassar a tela*/
 }
 
 header {
@@ -62,101 +62,8 @@ nav li a {
     margin-bottom: 4px;
 }
 
-.conteiner-flex {
-    display: flex;
-}
-
-#sobre img {
-    max-width: 400px;
-    margin-right: 24px;
-}
-
-section {
-    padding: 48px 0;
-}
-
-section h2 {
-    margin-bottom: 16px;
-}
-
-.lista-veiculos li {
-    list-style: none;
-    max-width: 30%;
-}
-
-.lista-veiculos li img {
-    max-width: 100%;
-}
-
-.lista-veiculos li h3 {
-    margin: 16px 0;
-} */
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
-}
-
-.container {
-    max-width: 1024px;
-    width: 100%;
-    margin: 0 auto;
-}
-
-html {
-    overflow-x: hidden; /* Todo conteúdo que ultrapassar a tela */
-}
-
-header {
-    background-color: #192a56;
-    padding-top: 18px;
-    color: #fff;
-}
-
-header .container {
-    display: flex;
-    justify-content: space-between;
-    text-align: center;
-    padding-bottom: 16px;
-}
-
-nav {
-    background-color: #575fcf;
-    padding: 16px 0;
-    display: flex; /* Correção: Alterado para flex */
-}
-
-nav li {
-    list-style: none; /* Correção: Alterado para none */
-    display: inline-block; /* Correção: Alterado para inline-block */
-    margin-right: 16px;
-    font-weight: bold;
-    text-transform: uppercase;
-}
-
-nav li a {
-    color: #fff;
-    text-decoration: none;
-}
-
-.menu-sandwich {
-    width: 32px;
-    padding-top: 16px;
-    cursor: pointer;
-}
-
-.menu-sandwich span {
-    height: 2px;
-    width: 100%;
-    background-color: #fff;
-    display: block;
-    margin-bottom: 4px;
-}
-
 .container-flex {
-    display: flex; /* Correção: Corrigido o nome da classe */
+    display: flex;
 }
 
 #sobre img {
@@ -183,4 +90,4 @@ section h2 {
 
 .lista-veiculos li h3 {
     margin: 16px 0;
-}
+} 
