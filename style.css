@@ -22,6 +22,7 @@ header {
 
 header > .container {
     display: flex;
+    
     justify-content: space-between;
     text-align: center;
     padding-bottom: 16px;
